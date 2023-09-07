@@ -53,6 +53,10 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+nav ul li a:hover{
+    color: #b54769;
+    font-size: 20x;
+}
 
 .header-text{
     margin-top: 20%;
@@ -94,6 +98,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    text-decoration-line: underline;
 }
 .tab-titles{
     display: flex;
@@ -365,7 +370,6 @@ nav .fa{
         font-weight: 400;
     }
     nav ul .fa{
-        position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
@@ -404,5 +408,9 @@ nav .fa{
         color: #ababab;
         display: inline-block;
         transition: transform 0.5s;
+    }
+    .btn{
+        padding: 10px 30px;
+
     }
 }
